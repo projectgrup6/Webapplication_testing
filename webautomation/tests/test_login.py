@@ -6,6 +6,6 @@ def test_login_pass(driver):
     print("Login Passed")
 
 def test_login_failed(driver):
-    login(driver, "Admin", "admin12345")
+    login(driver, "Admin", "admin23")
     assert is_login_failed(driver).is_displayed()
     print("Login Failed")
